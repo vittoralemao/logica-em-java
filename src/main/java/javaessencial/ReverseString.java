@@ -16,7 +16,7 @@ public class ReverseString {
     public void reverseString(char[] s) {
 
         int esquerda = 0;
-        int direita = s.length -1;
+        int direita = s.length - 1;
 
         while (esquerda < direita) {
             char temp = s[esquerda];

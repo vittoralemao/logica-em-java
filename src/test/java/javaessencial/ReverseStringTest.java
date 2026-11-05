@@ -10,7 +10,7 @@ public class ReverseStringTest {
 
     private final ReverseString reverseString = new ReverseString();
 
-    @ParameterizedTest(name = "\"{0}\" invertido é \"{1}\"")
+    @ParameterizedTest(name = "{0} invertido é {1}")
     @CsvSource({
             "hello, olleh",
             "Hannah, hannaH",
@@ -18,7 +18,7 @@ public class ReverseStringTest {
             "ab, ba"
     })
     @DisplayName("Inverte o array de caracteres in-place")
-    void deveInverterString(String entrada, String esperado){
+    void deveInverterString(String entrada, String esperado) {
         char[] array = entrada.toCharArray();
 
         reverseString.reverseString(array);
