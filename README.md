@@ -26,12 +26,13 @@ Cada solução tem testes em JUnit que comprovam seu funcionamento, incluindo ca
 ## Estrutura
 
 ```
-src/main/java/br/com/vitoralemao/logica/<padrão>/   → soluções
-src/test/java/br/com/vitoralemao/logica/<padrão>/   → testes
+src/main/java/<padrão>/              → soluções
+src/main/java/<padrão>/conceitos/    → explorações de conceitos (sem testes)
+src/test/java/<padrão>/              → testes
 ```
 
 Cada pacote corresponde a um padrão de resolução. Todo arquivo de solução começa com um
-cabeçalho com: problema, padrão, data, tempo gasto, tentativas, abordagem e complexidade.
+cabeçalho com: problema, padrão, data, se precisou de dica, abordagem, complexidade e aprendizado.
 
 ## Método
 
@@ -47,7 +48,7 @@ cabeçalho com: problema, padrão, data, tempo gasto, tentativas, abordagem e co
 | Fase | Padrão | Pacote | Resolvidos | Status |
 | --- | --- | --- | --- | --- |
 | 0 | Setup do projeto | `setup` | - | ✅ Concluída |
-| 1 | Java essencial | `javaessencial` | 0 | ⬜ Não iniciada |
+| 1 | Java essencial | `javaessencial` | 2 | 🟡 Em andamento |
 | 2 | Big-O, arrays e strings | `arraysstrings` | 0 | ⬜ Não iniciada |
 | 3 | Hashing | `hashing` | 0 | ⬜ Não iniciada |
 | 4 | Dois ponteiros e janela deslizante | `doisponteiros` | 0 | ⬜ Não iniciada |
@@ -64,8 +65,10 @@ cabeçalho com: problema, padrão, data, tempo gasto, tentativas, abordagem e co
 
 <!-- Adicione cada novo problema no TOPO da tabela -->
 
-| Data | Problema | Padrão | Nível | Tempo | Dica? | Revisões |
-| --- | --- | --- | --- | --- | --- | --- |
+| Data | Problema | Padrão | Nível | Dica? | Revisões |
+| --- | --- | --- | --- | --- | --- |
+| 2026-11-04 | [Reverse String](src/main/java/javaessencial/ReverseString.java) | Dois ponteiros | Fácil | Sim | - |
+| 2026-11-04 | [Contar Vogais](src/main/java/javaessencial/ContarVogais.java) | Percorrer string | Fácil | Sim | - |
 
 ## Simulados
 
