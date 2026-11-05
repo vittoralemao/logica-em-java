@@ -7,6 +7,7 @@ package javaessencial;
  * Abordagem: converto o texto para minúsculo, percorro cada letra e
  *            comparo com as vogais; se for vogal, somo no contador.
  * Complexidade: O(n) tempo, O(n) espaço (toLowerCase e toCharArray criam cópias)
+ * Otimizado: charAt + indexOf → O(n) tempo, O(1) espaço
  * Aprendizado: resolve o problema inteiro; o teste só simula o uso real.
  */
 
@@ -14,7 +15,7 @@ public class ContarVogais {
 
     public int contar(String texto) {
         String textoMinusculo = texto.toLowerCase();
-        char[] vogais = {'a' , 'e', 'i', 'o', 'u'};
+        char[] vogais = {'a', 'e', 'i', 'o', 'u'};
         int contador = 0;
 
         for (char letra : textoMinusculo.toCharArray()) {
@@ -28,10 +29,10 @@ public class ContarVogais {
         return contador;
     }
 
-    public int contarOtimizado(String texto){
+    public int contarOtimizado(String texto) {
         int contador = 0;
 
-        for (int i = 0; i < texto.length(); i++){
+        for (int i = 0; i < texto.length(); i++) {
             char letra = Character.toLowerCase(texto.charAt(i));
 
             if ("aeiou".indexOf(letra) != -1) {
