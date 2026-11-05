@@ -26,7 +26,7 @@ public class SomadorTest {
             "-2, -3, -5"
     })
     @DisplayName("Soma casos de borda")
-    void deveSomarCasosDeBorda(int a, int b, int esperado){
+    void deveSomarCasosDeBorda(int a, int b, int esperado) {
         assertEquals(esperado, somador.somar(a, b));
     }
 }
