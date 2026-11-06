@@ -48,7 +48,7 @@ cabeçalho com: problema, padrão, data, se precisou de dica, abordagem, complex
 | Fase | Padrão | Pacote | Resolvidos | Status |
 | --- | --- | --- | --- | --- |
 | 0 | Setup do projeto | `setup` | - | ✅ Concluída |
-| 1 | Java essencial | `javaessencial` | 2 | 🟡 Em andamento |
+| 1 | Java essencial | `javaessencial` | 3 | 🟡 Em andamento |
 | 2 | Big-O, arrays e strings | `arraysstrings` | 0 | ⬜ Não iniciada |
 | 3 | Hashing | `hashing` | 0 | ⬜ Não iniciada |
 | 4 | Dois ponteiros e janela deslizante | `doisponteiros` | 0 | ⬜ Não iniciada |
@@ -67,6 +67,7 @@ cabeçalho com: problema, padrão, data, se precisou de dica, abordagem, complex
 
 | Data | Problema | Padrão | Nível | Dica? | Revisões |
 | --- | --- | --- | --- | --- | --- |
+| 2026-11-06 | [Reverse Words in a String III](src/main/java/javaessencial/ReverseWords.java) | StringBuilder | Fácil | Não | - |
 | 2026-11-04 | [Reverse String](src/main/java/javaessencial/ReverseString.java) | Dois ponteiros | Fácil | Sim | - |
 | 2026-11-04 | [Contar Vogais](src/main/java/javaessencial/ContarVogais.java) | Percorrer string | Fácil | Sim | - |
 
