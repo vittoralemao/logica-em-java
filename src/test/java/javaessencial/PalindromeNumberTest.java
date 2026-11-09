@@ -18,6 +18,7 @@ public class PalindromeNumberTest {
             "-121, false",
             "120, false",
             "10, false",
+            "7, true",
             "0, true"
     })
     @DisplayName("Descobre se o número é palindromo")

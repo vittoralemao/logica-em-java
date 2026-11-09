@@ -70,6 +70,7 @@ cabeçalho com: problema, padrão, data, se precisou de dica, abordagem, complex
 | 2026-11-06 | [Reverse Words in a String III](src/main/java/javaessencial/ReverseWords.java) | StringBuilder | Fácil | Não | - |
 | 2026-11-04 | [Reverse String](src/main/java/javaessencial/ReverseString.java) | Dois ponteiros | Fácil | Sim | - |
 | 2026-11-04 | [Contar Vogais](src/main/java/javaessencial/ContarVogais.java) | Percorrer string | Fácil | Sim | - |
+| 2026-11-09 | [Palindrome Number](src/main/java/javaessencial/PalindromeNumber.java) | Dígitos (% e /) | Fácil | Sim | - |
 
 ## Simulados
 
