@@ -48,7 +48,7 @@ cabeçalho com: problema, padrão, data, se precisou de dica, abordagem, complex
 | Fase | Padrão | Pacote | Resolvidos | Status |
 | --- | --- | --- | --- | --- |
 | 0 | Setup do projeto | `setup` | - | ✅ Concluída |
-| 1 | Java essencial | `javaessencial` | 3 | 🟡 Em andamento |
+| 1 | Java essencial | `javaessencial` | 4 | 🟡 Em andamento |
 | 2 | Big-O, arrays e strings | `arraysstrings` | 0 | ⬜ Não iniciada |
 | 3 | Hashing | `hashing` | 0 | ⬜ Não iniciada |
 | 4 | Dois ponteiros e janela deslizante | `doisponteiros` | 0 | ⬜ Não iniciada |
